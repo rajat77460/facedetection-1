@@ -28,6 +28,7 @@ while True:
     # Stop if escape key is pressed
     k = cv2.waitKey(30) & 0xff
     if k==27:
+        cv2.destroyAllWindows()
         break
         
 # Release the VideoCapture object
